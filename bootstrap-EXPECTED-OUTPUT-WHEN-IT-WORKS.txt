@@ -1,0 +1,1930 @@
++ curl -sL https://git.io/fisher -o /tmp/fisher
++ fish '--debug=*' --debug-stack-frames=5 --private --print-rusage-self '--command=source /tmp/fisher && fisher install jorgebucaran/fisher'
+env-locale: locale var LANG='en_US.UTF-8'
+env-locale: locale var LANGUAGE missing or empty
+env-locale: locale var LC_ALL missing or empty
+env-locale: locale var LC_ADDRESS missing or empty
+env-locale: locale var LC_COLLATE missing or empty
+env-locale: locale var LC_CTYPE missing or empty
+env-locale: locale var LC_IDENTIFICATION missing or empty
+env-locale: locale var LC_MEASUREMENT missing or empty
+env-locale: locale var LC_MESSAGES missing or empty
+env-locale: locale var LC_MONETARY missing or empty
+env-locale: locale var LC_NAME missing or empty
+env-locale: locale var LC_NUMERIC missing or empty
+env-locale: locale var LC_PAPER missing or empty
+env-locale: locale var LC_TELEPHONE missing or empty
+env-locale: locale var LC_TIME missing or empty
+env-locale: locale var LOCPATH missing or empty
+env-locale: init_locale() setlocale(): 'en_US.UTF-8'
+env-locale: old LC_MESSAGES locale: 'en_US.UTF-8'
+env-locale: new LC_MESSAGES locale: 'en_US.UTF-8'
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -g IFS \n\ \t' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -g IFS \n\ \t), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -qg __fish_added_user_paths' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -qg __fish_added_user_paths), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -g __fish_added_user_paths' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -g __fish_added_user_paths), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'not set -q __fish_initialized' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not set -q __fish_initialized), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (status ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'status --is-interactive' with pgrp -2
+proc-job-run: Start job 2, gid -2 (status --is-interactive), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l __extra_completionsdir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l __extra_completionsdir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l __extra_functionsdir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l __extra_functionsdir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l __extra_confdir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l __extra_confdir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'test -f $__fish_data_dir/__fish_build_paths.fish' with pgrp -2
+proc-job-run: Start job 2, gid -2 (test -f $__fish_data_dir/__fish_build_paths.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set __extra_completionsdir /usr/local/share/fish/vendor_completions.d' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set __extra_completionsdir /usr/local/share/fish/vendor_completions.d), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set __extra_functionsdir /usr/local/share/fish/vendor_functions.d' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set __extra_functionsdir /usr/local/share/fish/vendor_functions.d), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set __extra_confdir /usr/local/share/fish/vendor_conf.d' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set __extra_confdir /usr/local/share/fish/vendor_conf.d), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'source $__fish_data_dir/__fish_build_paths.fish' with pgrp -2
+proc-job-run: Start job 2, gid -2 (source $__fish_data_dir/__fish_build_paths.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l xdg_data_dirs' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l xdg_data_dirs), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -q XDG_DATA_DIRS' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -q XDG_DATA_DIRS), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set xdg_data_dirs $__fish_data_dir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set xdg_data_dirs $__fish_data_dir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l vendor_completionsdirs $xdg_data_dirs/vendor_completions.d' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l vendor_completionsdirs $xdg_data_dirs/vendor_completions.d), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l vendor_functionsdirs $xdg_data_dirs/vendor_functions.d' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l vendor_functionsdirs $xdg_data_dirs/vendor_functions.d), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l vendor_confdirs $xdg_data_dirs/vendor_conf.d' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l vendor_confdirs $xdg_data_dirs/vendor_conf.d), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'not contains -- $__extra_completionsdir $vendor_completionsdirs' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not contains -- $__extra_completionsdir $vendor_completionsdirs), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -a vendor_completionsdirs $__extra_completionsdir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -a vendor_completionsdirs $__extra_completionsdir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'not contains -- $__extra_functionsdir $vendor_functionsdirs' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not contains -- $__extra_functionsdir $vendor_functionsdirs), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -a vendor_functionsdirs $__extra_functionsdir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -a vendor_functionsdirs $__extra_functionsdir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'not contains -- $__extra_confdir $vendor_confdirs' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not contains -- $__extra_confdir $vendor_confdirs), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -a vendor_confdirs $__extra_confdir' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -a vendor_confdirs $__extra_confdir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'not set -q fish_function_path' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not set -q fish_function_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set fish_function_path $__fish_config_dir/functions $__fish_sysconf_dir/functions $vendor_functionsdirs $__fish_data_dir/functions' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set fish_function_path $__fish_config_dir/functions $__fish_sysconf_dir/functions $vendor_functionsdirs $__fish_data_dir/functions), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'not set -q fish_complete_path' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not set -q fish_complete_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set fish_complete_path $__fish_config_dir/completions $__fish_sysconf_dir/completions $vendor_completionsdirs $__fish_data_dir/completions $__fish_user_data_dir/generated_completions' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set fish_complete_path $__fish_config_dir/completions $__fish_sysconf_dir/completions $vendor_completionsdirs $__fish_data_dir/completions $__fish_user_data_dir/generated_completions), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'not set -q FISH_UNIT_TESTS_RUNNING' with pgrp -2
+proc-job-run: Start job 2, gid -2 (not set -q FISH_UNIT_TESTS_RUNNING), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'test -d /usr/xpg4/bin' with pgrp -2
+proc-job-run: Start job 2, gid -2 (test -d /usr/xpg4/bin), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+exec-job-status: Set status of job 3 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'source /usr/share/fish/functions/__fish_set_locale.fish' with pgrp -2
+proc-job-run: Start job 3, gid -2 (source /usr/share/fish/functions/__fish_set_locale.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l LOCALE_VARS' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l LOCALE_VARS), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -a LOCALE_VARS LANG LANGUAGE LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -a LOCALE_VARS LANG LANGUAGE LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -a LOCALE_VARS LC_MONETARY LC_MESSAGES LC_PAPER LC_NAME LC_ADDRESS' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -a LOCALE_VARS LC_MONETARY LC_MESSAGES LC_PAPER LC_NAME LC_ADDRESS), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -a LOCALE_VARS LC_TELEPHONE LC_MEASUREMENT LC_IDENTIFICATION' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -a LOCALE_VARS LC_TELEPHONE LC_MEASUREMENT LC_IDENTIFICATION), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -q $locale_var' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -q $locale_var), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (return ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'return 0' with pgrp -2
+proc-job-run: Start job 2, gid -2 (return 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (__fish_set_locale ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command '__fish_set_locale' with pgrp -2
+proc-job-run: Start job -1, gid -2 (__fish_set_locale), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'test $__fish_initialized -lt 2300' with pgrp -2
+proc-job-run: Start job 2, gid -2 (test $__fish_initialized -lt 2300), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (status ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'status --is-login' with pgrp -2
+proc-job-run: Start job 2, gid -2 (status --is-login), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l local_path $PATH' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l local_path $PATH), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -g __fish_added_user_paths' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -g __fish_added_user_paths), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set -q fish_user_paths' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -q fish_user_paths), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -xg PATH $local_path' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -xg PATH $local_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (__fish_reconstruct_path ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command '__fish_reconstruct_path' with pgrp -2
+proc-job-run: Start job -1, gid -2 (__fish_reconstruct_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l sourcelist' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l sourcelist), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-job-status: Set status of job 3 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'string replace -r '^.*/' '' -- $file' with pgrp -2
+proc-job-run: Start job 3, gid -2 (string replace -r '^.*/' '' -- $file), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l basename (string replace -r '^.*/' '' -- $file)' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l basename (string replace -r '^.*/' '' -- $file)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'contains -- $basename $sourcelist' with pgrp -2
+proc-job-run: Start job 2, gid -2 (contains -- $basename $sourcelist), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set sourcelist $sourcelist $basename' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set sourcelist $sourcelist $basename), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 ([ ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command '[ -f $file -a -r $file ]' with pgrp -2
+proc-job-run: Start job 2, gid -2 ([ -f $file -a -r $file ]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set WORKING_DIRECTORY "/workspaces/dotfiles-reproduce-problem"' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set WORKING_DIRECTORY "/workspaces/dotfiles-reproduce-problem"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (status ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'status --is-login' with pgrp -2
+proc-job-run: Start job 3, gid -2 (status --is-login), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #1, pid 16496: spawn external command '/usr/bin/cat' from '/etc/fish/conf.d/codespaces.fish'
+exec-job-exec: Executed job 3 from command 'cat /workspaces/.codespaces/shared/.env-secrets' with pgrp 16490
+proc-job-run: Start job 3, gid 16490 (cat /workspaces/.codespaces/shared/.env-secrets), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 1
+proc-reap-external: Reaped external process 'cat' (pid 16496, status 0)
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #2, pid 16497: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 1 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 1 : current 1
+topic-monitor: TID 1 local mgen 1 read() complete, current mgen is 1
+topic-monitor: TID 1 local mgen 1 : current 1
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 1 exited with status 0
+topic-monitor: TID 1 local mgen 1 read() complete, current mgen is 1
+topic-monitor: Updating topic 0 to 2
+topic-monitor: Updating topic 2 to 1
+topic-monitor: TID 1 local mgen 1 : current 3
+proc-reap-internal: Reaped internal process 'echo' (id 1, status 0)
+iothread: pthread 0x7f700747b700 exiting
+proc-reap-external: Reaped external process 'sed' (pid 16497, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #3, pid 16499: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 2 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 3 : current 3
+topic-monitor: TID 1 local mgen 3 read() complete, current mgen is 3
+topic-monitor: TID 1 local mgen 3 : current 3
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 2 exited with status 0
+topic-monitor: TID 1 local mgen 3 read() complete, current mgen is 3
+topic-monitor: Updating topic 0 to 3
+topic-monitor: Updating topic 2 to 2
+topic-monitor: TID 1 local mgen 3 : current 5
+proc-reap-internal: Reaped internal process 'echo' (id 2, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16499, status 0)
+iothread: pthread 0x7f700747b700 exiting
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Created internal proc 3 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 3 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+exec-fork: Fork #4, pid 16502: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 2 to 3
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 4
+proc-reap-internal: Reaped internal process 'echo' (id 3, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16502, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #5, pid 16503: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 4 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 7 : current 7
+topic-monitor: TID 1 local mgen 7 read() complete, current mgen is 7
+topic-monitor: TID 1 local mgen 7 : current 7
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 4 exited with status 0
+topic-monitor: TID 1 local mgen 7 read() complete, current mgen is 7
+topic-monitor: Updating topic 0 to 5
+topic-monitor: Updating topic 2 to 4
+topic-monitor: TID 1 local mgen 7 : current 9
+proc-reap-internal: Reaped internal process 'echo' (id 4, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16503, status 0)
+iothread: pthread 0x7f700747b700 exiting
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #6, pid 16505: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 5 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 9 : current 9
+iothread: pthread 0x7f700747b700 got work
+topic-monitor: TID 1 local mgen 9 read() complete, current mgen is 9
+topic-monitor: Updating topic 2 to 5
+topic-monitor: TID 1 local mgen 9 : current 10
+proc-reap-internal: Reaped internal process 'echo' (id 5, status 0)
+topic-monitor: TID 1 local mgen 10 : current 10
+topic-monitor: TID 1 local mgen 10 read() complete, current mgen is 10
+topic-monitor: TID 1 local mgen 10 : current 10
+proc-internal-proc: Internal proc 5 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 10 read() complete, current mgen is 10
+topic-monitor: Updating topic 0 to 6
+topic-monitor: TID 1 local mgen 10 : current 11
+proc-reap-external: Reaped external process 'sed' (pid 16505, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Created internal proc 6 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 6 exited with status 0
+exec-fork: Fork #7, pid 16508: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: Updating topic 0 to 7
+topic-monitor: Updating topic 2 to 6
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 6, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16508, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #8, pid 16509: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 7 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 13 : current 13
+topic-monitor: TID 1 local mgen 13 read() complete, current mgen is 13
+topic-monitor: TID 1 local mgen 13 : current 13
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 7 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 13 read() complete, current mgen is 13
+topic-monitor: Updating topic 0 to 8
+topic-monitor: Updating topic 2 to 7
+topic-monitor: TID 1 local mgen 13 : current 15
+proc-reap-internal: Reaped internal process 'echo' (id 7, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16509, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #9, pid 16511: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 8 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 15 : current 15
+topic-monitor: TID 1 local mgen 15 read() complete, current mgen is 15
+topic-monitor: TID 1 local mgen 15 : current 15
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 8 exited with status 0
+topic-monitor: TID 1 local mgen 15 read() complete, current mgen is 15
+topic-monitor: Updating topic 0 to 9
+topic-monitor: Updating topic 2 to 8
+topic-monitor: TID 1 local mgen 15 : current 17
+proc-reap-internal: Reaped internal process 'echo' (id 8, status 0)
+iothread: pthread 0x7f700747b700 exiting
+proc-reap-external: Reaped external process 'sed' (pid 16511, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Created internal proc 9 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 9 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+exec-fork: Fork #10, pid 16514: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 0 to 10
+topic-monitor: Updating topic 2 to 9
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 9, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16514, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #11, pid 16515: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 10 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 19 : current 19
+topic-monitor: TID 1 local mgen 19 read() complete, current mgen is 19
+topic-monitor: TID 1 local mgen 19 : current 19
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 10 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 19 read() complete, current mgen is 19
+topic-monitor: Updating topic 2 to 10
+topic-monitor: TID 1 local mgen 19 : current 20
+proc-reap-internal: Reaped internal process 'echo' (id 10, status 0)
+topic-monitor: TID 1 local mgen 20 : current 20
+topic-monitor: TID 1 local mgen 20 read() complete, current mgen is 20
+topic-monitor: Updating topic 0 to 11
+topic-monitor: TID 1 local mgen 20 : current 21
+proc-reap-external: Reaped external process 'sed' (pid 16515, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #12, pid 16517: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 11 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 21 : current 21
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 11 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 21 read() complete, current mgen is 21
+topic-monitor: Updating topic 2 to 11
+topic-monitor: TID 1 local mgen 21 : current 22
+proc-reap-internal: Reaped internal process 'echo' (id 11, status 0)
+topic-monitor: Updating topic 0 to 12
+proc-reap-external: Reaped external process 'sed' (pid 16517, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Created internal proc 12 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 12 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+exec-fork: Fork #13, pid 16521: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 0 to 13
+topic-monitor: Updating topic 2 to 12
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 12, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16521, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #14, pid 16524: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 13 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 25 : current 25
+topic-monitor: TID 1 local mgen 25 read() complete, current mgen is 25
+topic-monitor: TID 1 local mgen 25 : current 25
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 13 exited with status 0
+topic-monitor: TID 1 local mgen 25 read() complete, current mgen is 25
+topic-monitor: Updating topic 0 to 14
+topic-monitor: Updating topic 2 to 13
+topic-monitor: TID 1 local mgen 25 : current 27
+proc-reap-internal: Reaped internal process 'echo' (id 13, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16524, status 0)
+iothread: pthread 0x7f700747b700 exiting
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #15, pid 16526: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 14 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 27 : current 27
+topic-monitor: TID 1 local mgen 27 read() complete, current mgen is 27
+topic-monitor: TID 1 local mgen 27 : current 27
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 14 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 27 read() complete, current mgen is 27
+topic-monitor: Updating topic 0 to 15
+topic-monitor: Updating topic 2 to 14
+topic-monitor: TID 1 local mgen 27 : current 29
+proc-reap-internal: Reaped internal process 'echo' (id 14, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16526, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Created internal proc 15 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 15 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+exec-fork: Fork #16, pid 16529: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 2 to 15
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 16
+proc-reap-internal: Reaped internal process 'echo' (id 15, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16529, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #17, pid 16531: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 16 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 31 : current 31
+topic-monitor: TID 1 local mgen 31 read() complete, current mgen is 31
+topic-monitor: TID 1 local mgen 31 : current 31
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 16 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 31 read() complete, current mgen is 31
+topic-monitor: Updating topic 0 to 17
+topic-monitor: Updating topic 2 to 16
+topic-monitor: TID 1 local mgen 31 : current 33
+proc-reap-internal: Reaped internal process 'echo' (id 16, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16531, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #18, pid 16535: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 17 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 33 : current 33
+iothread: pthread 0x7f700747b700 got work
+topic-monitor: TID 1 local mgen 33 read() complete, current mgen is 33
+topic-monitor: Updating topic 2 to 17
+topic-monitor: TID 1 local mgen 33 : current 34
+proc-reap-internal: Reaped internal process 'echo' (id 17, status 0)
+topic-monitor: TID 1 local mgen 34 : current 34
+proc-internal-proc: Internal proc 17 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 34 read() complete, current mgen is 34
+topic-monitor: Updating topic 0 to 18
+topic-monitor: TID 1 local mgen 34 : current 35
+proc-reap-external: Reaped external process 'sed' (pid 16535, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Created internal proc 18 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 18 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+exec-fork: Fork #19, pid 16538: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 0 to 19
+topic-monitor: Updating topic 2 to 18
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 18, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16538, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #20, pid 16541: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 19 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 37 : current 37
+topic-monitor: TID 1 local mgen 37 read() complete, current mgen is 37
+topic-monitor: TID 1 local mgen 37 : current 37
+iothread: pthread 0x7f700747b700 got work
+topic-monitor: TID 1 local mgen 37 read() complete, current mgen is 37
+topic-monitor: Updating topic 2 to 19
+topic-monitor: TID 1 local mgen 37 : current 38
+proc-reap-internal: Reaped internal process 'echo' (id 19, status 0)
+topic-monitor: TID 1 local mgen 38 : current 38
+proc-internal-proc: Internal proc 19 exited with status 0
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 38 read() complete, current mgen is 38
+topic-monitor: Updating topic 0 to 20
+topic-monitor: TID 1 local mgen 38 : current 39
+proc-reap-external: Reaped external process 'sed' (pid 16541, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f7007c7c700 got work
+exec-fork: Fork #21, pid 16545: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 20 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 39 : current 39
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 20 exited with status 0
+topic-monitor: TID 1 local mgen 39 read() complete, current mgen is 39
+topic-monitor: Updating topic 2 to 20
+topic-monitor: TID 1 local mgen 39 : current 40
+proc-reap-internal: Reaped internal process 'echo' (id 20, status 0)
+topic-monitor: TID 1 local mgen 40 : current 40
+topic-monitor: TID 1 local mgen 40 read() complete, current mgen is 40
+topic-monitor: Updating topic 0 to 21
+topic-monitor: TID 1 local mgen 40 : current 41
+proc-reap-external: Reaped external process 'sed' (pid 16545, status 0)
+iothread: pthread 0x7f7007c7c700 exiting
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 21 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 21 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-fork: Fork #22, pid 16555: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 0 to 22
+topic-monitor: Updating topic 2 to 21
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 21, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16555, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #23, pid 16557: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 22 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 43 : current 43
+topic-monitor: TID 1 local mgen 43 read() complete, current mgen is 43
+topic-monitor: TID 1 local mgen 43 : current 43
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 22 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+topic-monitor: TID 1 local mgen 43 read() complete, current mgen is 43
+topic-monitor: Updating topic 0 to 23
+topic-monitor: Updating topic 2 to 22
+topic-monitor: TID 1 local mgen 43 : current 45
+proc-reap-internal: Reaped internal process 'echo' (id 22, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16557, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-fork: Fork #24, pid 16560: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 23 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 45 : current 45
+topic-monitor: TID 1 local mgen 45 read() complete, current mgen is 45
+topic-monitor: TID 1 local mgen 45 : current 45
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 23 exited with status 0
+topic-monitor: TID 1 local mgen 45 read() complete, current mgen is 45
+topic-monitor: Updating topic 0 to 24
+topic-monitor: Updating topic 2 to 23
+topic-monitor: TID 1 local mgen 45 : current 47
+proc-reap-internal: Reaped internal process 'echo' (id 23, status 0)
+iothread: pthread 0x7f7007c7c700 exiting
+proc-reap-external: Reaped external process 'sed' (pid 16560, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 24 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 24 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-fork: Fork #25, pid 16564: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 0 to 25
+topic-monitor: Updating topic 2 to 24
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 24, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16564, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #26, pid 16566: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 25 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 49 : current 49
+topic-monitor: TID 1 local mgen 49 read() complete, current mgen is 49
+topic-monitor: TID 1 local mgen 49 : current 49
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 25 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+topic-monitor: TID 1 local mgen 49 read() complete, current mgen is 49
+topic-monitor: Updating topic 0 to 26
+topic-monitor: Updating topic 2 to 25
+topic-monitor: TID 1 local mgen 49 : current 51
+proc-reap-internal: Reaped internal process 'echo' (id 25, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16566, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-fork: Fork #27, pid 16570: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 26 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 51 : current 51
+topic-monitor: TID 1 local mgen 51 read() complete, current mgen is 51
+topic-monitor: TID 1 local mgen 51 : current 51
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 26 exited with status 0
+topic-monitor: TID 1 local mgen 51 read() complete, current mgen is 51
+topic-monitor: Updating topic 0 to 27
+topic-monitor: Updating topic 2 to 26
+topic-monitor: TID 1 local mgen 51 : current 53
+proc-reap-internal: Reaped internal process 'echo' (id 26, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16570, status 0)
+iothread: pthread 0x7f7007c7c700 exiting
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 27 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 27 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-fork: Fork #28, pid 16573: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 2 to 27
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 28
+proc-reap-internal: Reaped internal process 'echo' (id 27, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16573, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #29, pid 16574: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 28 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 55 : current 55
+topic-monitor: TID 1 local mgen 55 read() complete, current mgen is 55
+topic-monitor: TID 1 local mgen 55 : current 55
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 28 exited with status 0
+topic-monitor: TID 1 local mgen 55 read() complete, current mgen is 55
+topic-monitor: Updating topic 0 to 29
+topic-monitor: Updating topic 2 to 28
+topic-monitor: TID 1 local mgen 55 : current 57
+proc-reap-internal: Reaped internal process 'echo' (id 28, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16574, status 0)
+iothread: pthread 0x7f7007c7c700 exiting
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-fork: Fork #30, pid 16576: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 29 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 57 : current 57
+iothread: pthread 0x7f7007c7c700 got work
+topic-monitor: TID 1 local mgen 57 read() complete, current mgen is 57
+topic-monitor: Updating topic 2 to 29
+topic-monitor: TID 1 local mgen 57 : current 58
+proc-reap-internal: Reaped internal process 'echo' (id 29, status 0)
+topic-monitor: TID 1 local mgen 58 : current 58
+topic-monitor: TID 1 local mgen 58 read() complete, current mgen is 58
+topic-monitor: TID 1 local mgen 58 : current 58
+proc-internal-proc: Internal proc 29 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+topic-monitor: TID 1 local mgen 58 read() complete, current mgen is 58
+topic-monitor: Updating topic 0 to 30
+topic-monitor: TID 1 local mgen 58 : current 59
+proc-reap-external: Reaped external process 'sed' (pid 16576, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 30 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 30 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-fork: Fork #31, pid 16579: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 2 to 30
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 31
+proc-reap-internal: Reaped internal process 'echo' (id 30, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16579, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+env-export: create_export_array() recalc
+exec-fork: Fork #32, pid 16580: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 31 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/=.*//"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/=.*//"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 61 : current 61
+topic-monitor: TID 1 local mgen 61 read() complete, current mgen is 61
+topic-monitor: TID 1 local mgen 61 : current 61
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 31 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+topic-monitor: TID 1 local mgen 61 read() complete, current mgen is 61
+topic-monitor: Updating topic 0 to 32
+topic-monitor: Updating topic 2 to 31
+topic-monitor: TID 1 local mgen 61 : current 63
+proc-reap-internal: Reaped internal process 'echo' (id 31, status 0)
+proc-reap-external: Reaped external process 'sed' (pid 16580, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set key (echo $i | sed "s/=.*//")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set key (echo $i | sed "s/=.*//")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-fork: Fork #33, pid 16582: spawn external command '/usr/bin/sed' from '/etc/fish/conf.d/codespaces.fish'
+proc-internal-proc: Created internal proc 32 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-exec: Executed job 4 from command 'echo $i | sed "s/$key=//1"' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $i | sed "s/$key=//1"), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 63 : current 63
+topic-monitor: TID 1 local mgen 63 read() complete, current mgen is 63
+topic-monitor: TID 1 local mgen 63 : current 63
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 32 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+topic-monitor: TID 1 local mgen 63 read() complete, current mgen is 63
+topic-monitor: Updating topic 2 to 32
+topic-monitor: TID 1 local mgen 63 : current 64
+proc-reap-internal: Reaped internal process 'echo' (id 32, status 0)
+topic-monitor: Updating topic 0 to 33
+proc-reap-external: Reaped external process 'sed' (pid 16582, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set value (echo $i | sed "s/$key=//1")' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set value (echo $i | sed "s/$key=//1")), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 33 to write output for proc 'echo'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 33 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-fork: Fork #34, pid 16585: spawn external command '/usr/bin/base64' from '/etc/fish/conf.d/codespaces.fish'
+topic-monitor: Updating topic 0 to 34
+topic-monitor: Updating topic 2 to 33
+exec-job-status: Set status of job 4 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'echo $value | base64 -d | string collect' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (echo $value | base64 -d | string collect), UNCOMPLETED, NON-INTERACTIVE
+proc-reap-internal: Reaped internal process 'echo' (id 33, status 0)
+proc-reap-external: Reaped external process 'base64' (pid 16585, status 0)
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set decodedValue (echo $value | base64 -d | string collect)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set decodedValue (echo $value | base64 -d | string collect)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -gx $key $decodedValue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -gx $key $decodedValue), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'source $file' with pgrp -2
+proc-job-run: Start job 2, gid -2 (source $file), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 3 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'string replace -r '^.*/' '' -- $file' with pgrp -2
+proc-job-run: Start job 3, gid -2 (string replace -r '^.*/' '' -- $file), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set -l basename (string replace -r '^.*/' '' -- $file)' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set -l basename (string replace -r '^.*/' '' -- $file)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'contains -- $basename $sourcelist' with pgrp -2
+proc-job-run: Start job 2, gid -2 (contains -- $basename $sourcelist), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'set sourcelist $sourcelist $basename' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set sourcelist $sourcelist $basename), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 ([ ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command '[ -f $file -a -r $file ]' with pgrp -2
+proc-job-run: Start job 2, gid -2 ([ -f $file -a -r $file ]), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 4 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'source /usr/share/fish/functions/type.fish' with pgrp -2
+proc-job-run: Start job 4, gid -2 (source /usr/share/fish/functions/type.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q argv[1]' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q argv[1]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l options 'h/help' 'a/all' 's/short' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l options 'h/help' 'a/all' 's/short' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (argparse ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'argparse -n type -x t,p,P $options -- $argv' with pgrp -2
+proc-job-run: Start job 3, gid -2 (argparse -n type -x t,p,P $options -- $argv), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_help' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_help), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l res 1' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l res 1), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l mode normal' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l mode normal), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l multi no' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l multi no), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l selection all' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l selection all), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l short no' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l short no), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_quiet' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_quiet), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_type' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_type), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_path' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_force_path' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_force_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_all' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_all), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_short' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_short), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_no_functions' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_no_functions), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l found 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l found 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $selection != files' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $selection != files), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (functions ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'functions -q -- $i' with pgrp -2
+proc-job-run: Start job 3, gid -2 (functions -q -- $i), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 4 (builtin ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'builtin -n' with pgrp -2
+proc-job-run: Start job 4, gid -2 (builtin -n), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'contains -- $i (builtin -n)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (contains -- $i (builtin -n)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l paths' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l paths), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $multi != yes' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $multi != yes), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 4 (command ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'command -s -- $i' with pgrp -2
+proc-job-run: Start job 4, gid -2 (command -s -- $i), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set paths (command -s -- $i)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set paths (command -s -- $i)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set res 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set res 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set found 1' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set found 1), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-status: Set status of job 6 (command ...) to 256 using short circuit
+exec-job-exec: Executed job 6 from command 'command -sq ggettext' with pgrp -2
+proc-job-run: Start job 6, gid -2 (command -sq ggettext), COMPLETED, NON-INTERACTIVE
+iothread: pthread 0x7f7007c7c700 got work
+exec-job-status: Set status of job 6 (command ...) to 0 using short circuit
+exec-job-exec: Executed job 6 from command 'command -sq gettext' with pgrp -2
+proc-job-run: Start job 6, gid -2 (command -sq gettext), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 5 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 5 from command 'source /usr/share/fish/functions/_.fish' with pgrp -2
+proc-job-run: Start job 5, gid -2 (source /usr/share/fish/functions/_.fish), COMPLETED, NON-INTERACTIVE
+iothread: pthread 0x7f7007c7c700 exiting
+env-export: create_export_array() recalc
+exec-fork: Fork #35, pid 16587: spawn external command '/usr/bin/gettext' from '/etc/fish/conf.d/code_alias.fish'
+exec-job-exec: Executed job 4 from command 'command gettext fish $argv' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (command gettext fish $argv), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 35
+proc-reap-external: Reaped external process 'gettext' (pid 16587, status 0)
+exec-job-status: Set status of job -1 (_ ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command '_ '%s is %s\n'' with pgrp -2
+proc-job-run: Start job -1, gid -2 (_ '%s is %s\n'), COMPLETED, NON-INTERACTIVE
+proc-internal-proc: Created internal proc 34 to write output for proc 'printf'
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+exec-job-exec: Executed job 3 from command 'printf (_ '%s is %s\n') $i $path' with pgrp -2
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 34 exited with status 0
+proc-job-run: Start job 3, gid -2 (printf (_ '%s is %s\n') $i $path), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 2 to 34
+proc-reap-internal: Reaped internal process 'printf' (id 34, status 0)
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $multi != yes' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $multi != yes), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (continue ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'continue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (continue), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'test $found = 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $found = 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (return ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'return $res' with pgrp -2
+proc-job-run: Start job 3, gid -2 (return $res), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (type ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command 'type code-insiders > /dev/null 2>&1' with pgrp -2
+proc-job-run: Start job -1, gid -2 (type code-insiders > /dev/null 2>&1), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q argv[1]' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q argv[1]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l options 'h/help' 'a/all' 's/short' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l options 'h/help' 'a/all' 's/short' 'f/no-functions' 't/type' 'p/path' 'P/force-path' 'q/quiet'), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (argparse ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'argparse -n type -x t,p,P $options -- $argv' with pgrp -2
+proc-job-run: Start job 3, gid -2 (argparse -n type -x t,p,P $options -- $argv), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_help' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_help), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l res 1' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l res 1), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l mode normal' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l mode normal), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l multi no' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l multi no), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l selection all' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l selection all), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l short no' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l short no), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_quiet' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_quiet), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_type' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_type), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_path' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_force_path' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_force_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_all' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_all), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_short' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_short), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -q _flag_no_functions' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -q _flag_no_functions), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l found 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l found 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $selection != files' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $selection != files), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (functions ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'functions -q -- $i' with pgrp -2
+proc-job-run: Start job 3, gid -2 (functions -q -- $i), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 4 (builtin ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'builtin -n' with pgrp -2
+proc-job-run: Start job 4, gid -2 (builtin -n), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'contains -- $i (builtin -n)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (contains -- $i (builtin -n)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set -l paths' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set -l paths), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $multi != yes' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $multi != yes), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 4 (command ...) to 0 using short circuit
+exec-job-exec: Executed job 4 from command 'command -s -- $i' with pgrp -2
+proc-job-run: Start job 4, gid -2 (command -s -- $i), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set paths (command -s -- $i)' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set paths (command -s -- $i)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set res 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set res 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'set found 1' with pgrp -2
+proc-job-run: Start job 3, gid -2 (set found 1), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-fork: Fork #36, pid 16588: spawn external command '/usr/bin/gettext' from '/etc/fish/conf.d/code_alias.fish'
+exec-job-exec: Executed job 4 from command 'command gettext fish $argv' with pgrp 16490
+proc-job-run: Start job 4, gid 16490 (command gettext fish $argv), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 36
+proc-reap-external: Reaped external process 'gettext' (pid 16588, status 0)
+exec-job-status: Set status of job -1 (_ ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command '_ '%s is %s\n'' with pgrp -2
+proc-job-run: Start job -1, gid -2 (_ '%s is %s\n'), COMPLETED, NON-INTERACTIVE
+proc-internal-proc: Created internal proc 35 to write output for proc 'printf'
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 35 exited with status 0
+exec-job-exec: Executed job 3 from command 'printf (_ '%s is %s\n') $i $path' with pgrp -2
+proc-job-run: Start job 3, gid -2 (printf (_ '%s is %s\n') $i $path), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 2 to 35
+proc-reap-internal: Reaped internal process 'printf' (id 35, status 0)
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $multi != yes' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $multi != yes), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (continue ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'continue' with pgrp -2
+proc-job-run: Start job 3, gid -2 (continue), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'test $found = 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $found = 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (return ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'return $res' with pgrp -2
+proc-job-run: Start job 3, gid -2 (return $res), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (type ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command 'not type code > /dev/null 2>&1' with pgrp -2
+proc-job-run: Start job -1, gid -2 (not type code > /dev/null 2>&1), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'source $file' with pgrp -2
+proc-job-run: Start job 2, gid -2 (source $file), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'builtin source /usr/share/fish/config.fish' with pgrp -2
+proc-job-run: Start job 1, gid -2 (builtin source /usr/share/fish/config.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'builtin source /etc/fish/config.fish' with pgrp -2
+proc-job-run: Start job 1, gid -2 (builtin source /etc/fish/config.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command '! set --query _fisher_upgraded_to_4_4' with pgrp -2
+proc-job-run: Start job 2, gid -2 (! set --query _fisher_upgraded_to_4_4), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'source /tmp/fisher' with pgrp -2
+proc-job-run: Start job 1, gid -2 (source /tmp/fisher), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --query fisher_path' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --query fisher_path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local fisher_path $__fish_config_dir' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local fisher_path $__fish_config_dir), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local fisher_version 4.4.2' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local fisher_version 4.4.2), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local fish_plugins $__fish_config_dir/fish_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local fish_plugins $__fish_config_dir/fish_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'source /usr/share/fish/functions/isatty.fish' with pgrp -2
+proc-job-run: Start job 2, gid -2 (source /usr/share/fish/functions/isatty.fish), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set -l options 'h/help'' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set -l options 'h/help'), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (argparse ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'argparse -n isatty $options -- $argv' with pgrp -2
+proc-job-run: Start job 1, gid -2 (argparse -n isatty $options -- $argv), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set -q _flag_help' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set -q _flag_help), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set -q argv[2]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set -q argv[2]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set -l fd' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set -l fd), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set fd 0' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set fd 0), COMPLETED, NON-INTERACTIVE
+exec-fork: Fork #37, pid 16589: spawn external command '/usr/bin/[' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command [ -t "$fd" ]' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command [ -t "$fd" ]), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 37
+proc-reap-external: Reaped external process '[' (pid 16589, status 0)
+exec-job-status: Set status of job -1 (isatty ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command 'isatty' with pgrp -2
+proc-job-run: Start job -1, gid -2 (isatty), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --append argv $stdin' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --append argv $stdin), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local install_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local install_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local update_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local update_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local remove_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local remove_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local arg_plugins $argv[2..-1]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local arg_plugins $argv[2..-1]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local old_plugins $_fisher_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local old_plugins $_fisher_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local new_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local new_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'test -e $fish_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (test -e $fish_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'string match --regex -- '^[^\s]+$' <$fish_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string match --regex -- '^[^\s]+$' <$fish_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local file_plugins (string match --regex -- '^[^\s]+$' <$fish_plugins)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local file_plugins (string match --regex -- '^[^\s]+$' <$fish_plugins)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command '! set --query argv[2]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (! set --query argv[2]), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'test -e "$plugin"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (test -e "$plugin"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string lower -- $plugin' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string lower -- $plugin), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set plugin (test -e "$plugin" && realpath $plugin || string lower -- $plugin)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set plugin (test -e "$plugin" && realpath $plugin || string lower -- $plugin)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- "$plugin" $new_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- "$plugin" $new_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --append new_plugins $plugin' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --append new_plugins $plugin), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --query argv[2]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --query argv[2]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- "$plugin" $old_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- "$plugin" $old_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'test "$cmd" = remove' with pgrp -2
+proc-job-run: Start job 1, gid -2 (test "$cmd" = remove), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --append update_plugins $plugin' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --append update_plugins $plugin), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local pid_list' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local pid_list), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local source_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local source_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local fetch_plugins $update_plugins $install_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local fetch_plugins $update_plugins $install_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (status ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'status fish-path' with pgrp -2
+proc-job-run: Start job 2, gid -2 (status fish-path), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local fish_path (status fish-path)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local fish_path (status fish-path)), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (set_color ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set_color --bold' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set_color --bold), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (set_color ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set_color normal' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set_color normal), COMPLETED, NON-INTERACTIVE
+[1mfisher install version 4.4.2(B[m
+exec-job-status: Set status of job 1 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'echo (set_color --bold)fisher $cmd version $fisher_version(set_color normal)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (echo (set_color --bold)fisher $cmd version $fisher_version(set_color normal)), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-fork: Fork #38, pid 16590: spawn external command '/usr/bin/mktemp' from '<no file>'
+exec-job-exec: Executed job 2 from command 'command mktemp -d' with pgrp 16490
+proc-job-run: Start job 2, gid 16490 (command mktemp -d), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 38
+proc-reap-external: Reaped external process 'mktemp' (pid 16590, status 0)
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local source (command mktemp -d)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local source (command mktemp -d)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --append source_plugins $source' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --append source_plugins $source), COMPLETED, NON-INTERACTIVE
+exec-fork: Fork #39, pid 16591: spawn external command '/usr/bin/mkdir' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command mkdir -p $source/{completions,conf.d,themes,functions}' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command mkdir -p $source/{completions,conf.d,themes,functions}), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 39
+proc-reap-external: Reaped external process 'mkdir' (pid 16591, status 0)
+exec-fork: Fork #40, pid 16592: spawn external command '/usr/bin/fish' from '<no file>'
+exec-job-exec: Executed job 1 from command '$fish_path --command "
+                    if test -e $plugin
+                        command cp -Rf $plugin/* $source
+                    else
+                        set temp (command mktemp -d)
+                        set repo (string split -- \@ $plugin) || set repo[2] HEAD
+
+                        if set path (string replace --regex -- '^(https://)?gitlab.com/' '' \$repo[1])
+                            set name (string split -- / \$path)[-1]
+                            set url https://gitlab.com/\$path/-/archive/\$repo[2]/\$name-\$repo[2].tar.gz
+                        else
+                            set url https://api.github.com/repos/\$repo[1]/tarball/\$repo[2]
+                        end
+
+                        echo Fetching (set_color --underline)\$url(set_color normal)
+
+                        if curl --silent -L \$url | tar -xzC \$temp -f - 2>/dev/null
+                            command cp -Rf \$temp/*/* $source
+                        else
+                            echo fisher: Invalid plugin name or host unavailable: \\\"$plugin\\\" >&2
+                            command rm -rf $source
+                        end
+
+                        command rm -rf \$temp
+                    end
+
+                    set files $source/* && string match --quiet --regex -- .+\.fish\\\$ \$files
+                " &' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 ($fish_path --command "
+                    if test -e $plugin
+                        command cp -Rf $plugin/* $source
+                    else
+                        set temp (command mktemp -d)
+                        set repo (string split -- \@ $plugin) || set repo[2] HEAD
+
+                        if set path (string replace --regex -- '^(https://)?gitlab.com/' '' \$repo[1])
+                            set name (string split -- / \$path)[-1]
+                            set url https://gitlab.com/\$path/-/archive/\$repo[2]/\$name-\$repo[2].tar.gz
+                        else
+                            set url https://api.github.com/repos/\$repo[1]/tarball/\$repo[2]
+                        end
+
+                        echo Fetching (set_color --underline)\$url(set_color normal)
+
+                        if curl --silent -L \$url | tar -xzC \$temp -f - 2>/dev/null
+                            command cp -Rf \$temp/*/* $source
+                        else
+                            echo fisher: Invalid plugin name or host unavailable: \\\"$plugin\\\" >&2
+                            command rm -rf $source
+                        end
+
+                        command rm -rf \$temp
+                    end
+
+                    set files $source/* && string match --quiet --regex -- .+\.fish\\\$ \$files
+                " &), UNCOMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 3 (jobs ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'jobs --last --pid' with pgrp -2
+proc-job-run: Start job 3, gid -2 (jobs --last --pid), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set --append pid_list (jobs --last --pid)' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set --append pid_list (jobs --last --pid)), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 3 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'string match -qr '^%\d+$' -- $arg' with pgrp -2
+proc-job-run: Start job 3, gid -2 (string match -qr '^%\d+$' -- $arg), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (printf ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'printf "%s\n" $arg' with pgrp -2
+proc-job-run: Start job 3, gid -2 (printf "%s\n" $arg), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (__fish_expand_pid_args ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command '__fish_expand_pid_args $argv' with pgrp -2
+proc-job-run: Start job -1, gid -2 (__fish_expand_pid_args $argv), COMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 74 : current 74
+topic-monitor: TID 1 local mgen 74 read() complete, current mgen is 74
+topic-monitor: TID 1 local mgen 74 : current 74
+Fetching [4mhttps://api.github.com/repos/jorgebucaran/fisher/tarball/HEAD(B[m
+iothread: pthread 0x7f700747b700 exiting
+topic-monitor: TID 1 local mgen 74 read() complete, current mgen is 74
+topic-monitor: Updating topic 0 to 40
+topic-monitor: TID 1 local mgen 74 : current 75
+proc-reap-external: Reaped external process '/usr/bin/fish' (pid 16592, status 1)
+exec-job-status: Set status of job 2 (wait ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'builtin $jobbltn (__fish_expand_pid_args $argv)' with pgrp -2
+proc-job-run: Start job 2, gid -2 (builtin $jobbltn (__fish_expand_pid_args $argv)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (wait ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command 'wait $pid_list 2>/dev/null' with pgrp -2
+proc-job-run: Start job -1, gid -2 (wait $pid_list 2>/dev/null), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'contains --index -- "$plugin" $fetch_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (contains --index -- "$plugin" $fetch_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local source $source_plugins[(contains --index -- "$plugin" $fetch_plugins)]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local source $source_plugins[(contains --index -- "$plugin" $fetch_plugins)]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'test ! -e $source' with pgrp -2
+proc-job-run: Start job 1, gid -2 (test ! -e $source), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'contains --index -- "$plugin" $_fisher_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (contains --index -- "$plugin" $_fisher_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local index (contains --index -- "$plugin" $_fisher_plugins)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local index (contains --index -- "$plugin" $_fisher_plugins)), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'string escape --style=var -- $plugin' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string escape --style=var -- $plugin), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local plugin_files_var _fisher_(string escape --style=var -- $plugin)_files' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local plugin_files_var _fisher_(string escape --style=var -- $plugin)_files), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- "$plugin" $remove_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- "$plugin" $remove_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'string replace -- \~ ~ $$plugin_files_var' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string replace -- \~ ~ $$plugin_files_var), COMPLETED, NON-INTERACTIVE
+exec-fork: Fork #41, pid 16726: spawn external command '/usr/bin/rm' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command rm -rf (string replace -- \~ ~ $$plugin_files_var)' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command rm -rf (string replace -- \~ ~ $$plugin_files_var)), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 41
+proc-reap-external: Reaped external process 'rm' (pid 16726, status 0)
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'string replace --filter --regex -- '.+/functions/([^/]+)\.fish$' '$1' $$plugin_files_var' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string replace --filter --regex -- '.+/functions/([^/]+)\.fish$' '$1' $$plugin_files_var), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (functions ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'functions --erase (string replace --filter --regex -- '.+/functions/([^/]+)\.fish$' '$1' $$plugin_files_var)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (functions --erase (string replace --filter --regex -- '.+/functions/([^/]+)\.fish$' '$1' $$plugin_files_var)), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 1 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'string replace --filter --regex -- '.+/completions/([^/]+)\.fish$' '$1' $$plugin_files_var' with pgrp -2
+proc-job-run: Start job 1, gid -2 (string replace --filter --regex -- '.+/completions/([^/]+)\.fish$' '$1' $$plugin_files_var), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'complete --erase --command $name' with pgrp -2
+proc-job-run: Start job 1, gid -2 (complete --erase --command $name), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --erase $plugin_files_var' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --erase $plugin_files_var), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --query update_plugins[1]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --query update_plugins[1]), COMPLETED, NON-INTERACTIVE
+exec-fork: Fork #42, pid 16732: spawn external command '/usr/bin/mkdir' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command mkdir -p $fisher_path/{functions,themes,conf.d,completions}' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command mkdir -p $fisher_path/{functions,themes,conf.d,completions}), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 76 : current 76
+topic-monitor: TID 1 local mgen 76 read() complete, current mgen is 76
+topic-monitor: TID 1 local mgen 76 : current 76
+topic-monitor: TID 1 local mgen 76 read() complete, current mgen is 76
+topic-monitor: Updating topic 0 to 42
+topic-monitor: TID 1 local mgen 76 : current 77
+proc-reap-external: Reaped external process 'mkdir' (pid 16732, status 0)
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'contains --index -- "$plugin" $fetch_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (contains --index -- "$plugin" $fetch_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local source $source_plugins[(contains --index -- "$plugin" $fetch_plugins)]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local source $source_plugins[(contains --index -- "$plugin" $fetch_plugins)]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local files $source/{functions,themes,conf.d,completions}/*' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local files $source/{functions,themes,conf.d,completions}/*), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'contains --index -- $plugin $install_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (contains --index -- $plugin $install_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local index (contains --index -- $plugin $install_plugins)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local index (contains --index -- $plugin $install_plugins)), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 1 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'string replace -- $source/ "" $files' with pgrp -2
+proc-job-run: Start job 1, gid -2 (string replace -- $source/ "" $files), COMPLETED, NON-INTERACTIVE
+exec-fork: Fork #43, pid 16733: spawn external command '/usr/bin/cp' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command cp -Rf $source/$file $fisher_path/$file' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command cp -Rf $source/$file $fisher_path/$file), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 43
+proc-reap-external: Reaped external process 'cp' (pid 16733, status 0)
+exec-fork: Fork #44, pid 16734: spawn external command '/usr/bin/cp' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command cp -Rf $source/$file $fisher_path/$file' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command cp -Rf $source/$file $fisher_path/$file), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 44
+proc-reap-external: Reaped external process 'cp' (pid 16734, status 0)
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'string escape --style=var -- $plugin' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string escape --style=var -- $plugin), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local plugin_files_var _fisher_(string escape --style=var -- $plugin)_files' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local plugin_files_var _fisher_(string escape --style=var -- $plugin)_files), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --query files[1]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --query files[1]), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 36 to write output for proc 'string'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 36 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-job-status: Set status of job 2 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'string replace -- $source $fisher_path $files | string replace -- ~ \~' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string replace -- $source $fisher_path $files | string replace -- ~ \~), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 2 to 36
+proc-reap-internal: Reaped internal process 'string' (id 36, status 0)
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --universal $plugin_files_var (string replace -- $source $fisher_path $files | string replace -- ~ \~)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --universal $plugin_files_var (string replace -- $source $fisher_path $files | string replace -- ~ \~)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- $plugin $_fisher_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- $plugin $_fisher_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- $plugin $install_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- $plugin $install_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local event update' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local event update), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (set_color ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set_color --bold' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set_color --bold), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (set_color ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'set_color normal' with pgrp -2
+proc-job-run: Start job 2, gid -2 (set_color normal), COMPLETED, NON-INTERACTIVE
+proc-internal-proc: Created internal proc 37 to write output for proc 'printf'
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 37 exited with status 0
+Installing [1mjorgebucaran/fisher(B[m
+           /home/codespace/.config/fish/functions/fisher.fish
+           /home/codespace/.config/fish/completions/fisher.fish
+exec-job-status: Set status of job 1 (printf ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'printf "%s\n" Installing\ (set_color --bold)$plugin(set_color normal) "           "$$plugin_files_var | string replace -- \~ ~' with pgrp -2
+proc-job-run: Start job 1, gid -2 (printf "%s\n" Installing\ (set_color --bold)$plugin(set_color normal) "           "$$plugin_files_var | string replace -- \~ ~), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 2 to 37
+proc-reap-internal: Reaped internal process 'printf' (id 37, status 0)
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Created internal proc 38 to write output for proc 'string'
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+proc-internal-proc: Internal proc 38 exited with status 0
+iothread: pthread 0x7f7007c7c700 exiting
+exec-job-status: Set status of job 1 (string ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'string match --regex -- '.+/[^/]+\.fish$' $$plugin_files_var | string replace -- \~ ~' with pgrp -2
+proc-job-run: Start job 1, gid -2 (string match --regex -- '.+/[^/]+\.fish$' $$plugin_files_var | string replace -- \~ ~), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 2 to 38
+proc-reap-internal: Reaped internal process 'string' (id 38, status 0)
+exec-job-status: Set status of job 2 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command '! set --query _fisher_upgraded_to_4_4' with pgrp -2
+proc-job-run: Start job 2, gid -2 (! set --query _fisher_upgraded_to_4_4), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'source $file' with pgrp -2
+proc-job-run: Start job 1, gid -2 (source $file), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local name (string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local name (string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --long help --description "Print help"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --long help --description "Print help"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --long version --description "Print version"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --long version --description "Print version"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --condition __fish_use_subcommand --arguments install --description "Install plugins"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --condition __fish_use_subcommand --arguments install --description "Install plugins"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --condition __fish_use_subcommand --arguments update --description "Update installed plugins"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --condition __fish_use_subcommand --arguments update --description "Update installed plugins"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --condition __fish_use_subcommand --arguments remove --description "Remove installed plugins"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --condition __fish_use_subcommand --arguments remove --description "Remove installed plugins"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --condition __fish_use_subcommand --arguments list --description "List installed plugins matching regex"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --condition __fish_use_subcommand --arguments list --description "List installed plugins matching regex"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 2 (complete ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'complete --command fisher --exclusive --condition "__fish_seen_subcommand_from update remove" --arguments "(fisher list)"' with pgrp -2
+proc-job-run: Start job 2, gid -2 (complete --command fisher --exclusive --condition "__fish_seen_subcommand_from update remove" --arguments "(fisher list)"), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (source ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'source $file' with pgrp -2
+proc-job-run: Start job 1, gid -2 (source $file), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local name (string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local name (string replace --regex -- '.+conf\.d/([^/]+)\.fish$' '$1' $file)), COMPLETED, NON-INTERACTIVE
+exec-fork: Fork #45, pid 16737: spawn external command '/usr/bin/rm' from '<no file>'
+exec-job-exec: Executed job 1 from command 'command rm -rf $source_plugins' with pgrp 16490
+proc-job-run: Start job 1, gid 16490 (command rm -rf $source_plugins), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: Updating topic 0 to 45
+proc-reap-external: Reaped external process 'rm' (pid 16737, status 0)
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --query _fisher_plugins[1]' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --query _fisher_plugins[1]), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local commit_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local commit_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string lower -- $plugin' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string lower -- $plugin), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string lower -- $_fisher_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string lower -- $_fisher_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- (string lower -- $plugin) (string lower -- $_fisher_plugins)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- (string lower -- $plugin) (string lower -- $_fisher_plugins)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'set --append commit_plugins $plugin' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --append commit_plugins $plugin), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string lower -- $plugin' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string lower -- $plugin), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string lower -- $commit_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string lower -- $commit_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (contains ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'contains -- (string lower -- $plugin) (string lower -- $commit_plugins)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (contains -- (string lower -- $plugin) (string lower -- $commit_plugins)), COMPLETED, NON-INTERACTIVE
+proc-internal-proc: Created internal proc 39 to write output for proc 'printf'
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+exec-job-exec: Executed job 1 from command 'printf "%s\n" $commit_plugins >$fish_plugins' with pgrp -2
+proc-job-run: Start job 1, gid -2 (printf "%s\n" $commit_plugins >$fish_plugins), UNCOMPLETED, NON-INTERACTIVE
+topic-monitor: TID 1 local mgen 83 : current 83
+topic-monitor: TID 1 local mgen 83 read() complete, current mgen is 83
+topic-monitor: TID 1 local mgen 83 : current 83
+iothread: pthread 0x7f700747b700 got work
+proc-internal-proc: Internal proc 39 exited with status 0
+topic-monitor: TID 1 local mgen 83 read() complete, current mgen is 83
+topic-monitor: Updating topic 2 to 39
+topic-monitor: TID 1 local mgen 83 : current 84
+proc-reap-internal: Reaped internal process 'printf' (id 39, status 0)
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (count ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'count $install_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (count $install_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (count ...) to 0 using short circuit
+exec-job-exec: Executed job 2 from command 'count $update_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (count $update_plugins), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+exec-job-status: Set status of job 2 (count ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'count $remove_plugins' with pgrp -2
+proc-job-run: Start job 2, gid -2 (count $remove_plugins), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (set ...) to 256 using short circuit
+exec-job-exec: Executed job 1 from command 'set --local total (count $install_plugins) (count $update_plugins) (count $remove_plugins)' with pgrp -2
+proc-job-run: Start job 1, gid -2 (set --local total (count $install_plugins) (count $update_plugins) (count $remove_plugins)), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 1 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'test "$total" != "0 0 0"' with pgrp -2
+proc-job-run: Start job 1, gid -2 (test "$total" != "0 0 0"), COMPLETED, NON-INTERACTIVE
+iothread: enqueuing work item (count is 1)
+iothread: notifying a thread
+iothread: pthread 0x7f700747b700 got work
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $total[1] = 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $total[1] = 0), COMPLETED, NON-INTERACTIVE
+iothread: pthread 0x7f7007c7c700 exiting
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+iothread: pthread 0x7f7007c7c700 got work
+exec-job-status: Set status of job 3 (test ...) to 256 using short circuit
+exec-job-exec: Executed job 3 from command 'test $total[2] = 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $total[2] = 0), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job 3 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'echo "Updated $total[2]"' with pgrp -2
+proc-job-run: Start job 3, gid -2 (echo "Updated $total[2]"), COMPLETED, NON-INTERACTIVE
+iothread: pthread 0x7f7007c7c700 exiting
+iothread: enqueuing work item (count is 1)
+iothread: pthread spawned
+exec-job-status: Set status of job 3 (test ...) to 0 using short circuit
+exec-job-exec: Executed job 3 from command 'test $total[3] = 0' with pgrp -2
+proc-job-run: Start job 3, gid -2 (test $total[3] = 0), COMPLETED, NON-INTERACTIVE
+iothread: pthread 0x7f7007c7c700 got work
+iothread: pthread 0x7f7007c7c700 exiting
+exec-job-status: Set status of job 2 (string ...) to 256 using short circuit
+exec-job-exec: Executed job 2 from command 'string join ", " (
+                test $total[1] = 0 || echo "Installed $total[1]") (
+                test $total[2] = 0 || echo "Updated $total[2]") (
+                test $total[3] = 0 || echo "Removed $total[3]")' with pgrp -2
+proc-job-run: Start job 2, gid -2 (string join ", " (
+                test $total[1] = 0 || echo "Installed $total[1]") (
+                test $total[2] = 0 || echo "Updated $total[2]") (
+                test $total[3] = 0 || echo "Removed $total[3]")), COMPLETED, NON-INTERACTIVE
+Updated 1 plugin/s
+exec-job-status: Set status of job 1 (echo ...) to 0 using short circuit
+exec-job-exec: Executed job 1 from command 'echo (string join ", " (
+                test $total[1] = 0 || echo "Installed $total[1]") (
+                test $total[2] = 0 || echo "Updated $total[2]") (
+                test $total[3] = 0 || echo "Removed $total[3]")
+            ) plugin/s' with pgrp -2
+proc-job-run: Start job 1, gid -2 (echo (string join ", " (
+                test $total[1] = 0 || echo "Installed $total[1]") (
+                test $total[2] = 0 || echo "Updated $total[2]") (
+                test $total[3] = 0 || echo "Removed $total[3]")
+            ) plugin/s), COMPLETED, NON-INTERACTIVE
+exec-job-status: Set status of job -1 (fisher ...) to 0 using short circuit
+exec-job-exec: Executed job -1 from command 'fisher install jorgebucaran/fisher' with pgrp -2
+proc-job-run: Start job -1, gid -2 (fisher install jorgebucaran/fisher), COMPLETED, NON-INTERACTIVE
