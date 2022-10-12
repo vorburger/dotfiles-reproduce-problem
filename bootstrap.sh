@@ -2,6 +2,5 @@
 set -euxo pipefail
 
 # https://github.com/jorgebucaran/fisher
-[ -s $HOME/.config/fish/functions/fisher.fish ] || \
-  curl -sL https://git.io/fisher -o /tmp/fisher && \
-  fish -c "source /tmp/fisher && fisher install jorgebucaran/fisher"
+curl -sL https://git.io/fisher -o /tmp/fisher
+fish -c "source /tmp/fisher && fisher install jorgebucaran/fisher"
