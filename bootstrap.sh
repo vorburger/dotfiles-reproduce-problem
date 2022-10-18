@@ -3,6 +3,8 @@ set -euxo pipefail
 
 # Fix https://github.com/orgs/community/discussions/35527
 ls -l /proc/$$/fd/0
+cat
+exit 0
 # It's e.g. pipe:[131656] when GitHub Codespace Creation runs this hook script
 exec </dev/null
 # Now it's /dev/null (obviously)
