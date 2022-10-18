@@ -2,7 +2,9 @@
 set -euxo pipefail
 
 # Fix https://github.com/orgs/community/discussions/35527
+ls -l /proc/$$/fd/0
 exec </dev/null
+ls -l /proc/$$/fd/0
 
 # GitHub codespaces comes (as of mid October 2022) with old Fish 3.1.0; let's upgrade it
 sudo apt-add-repository -y ppa:fish-shell/release-3
