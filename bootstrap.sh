@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-# Fix https://github.com/orgs/community/discussions/35527
+# See https://github.com/orgs/community/discussions/35527 for background about the problem that this illustrates
+
+# GitHub Codespace Creation STDIN runs this hook script with STDIN set to a e.g. pipe:[131656]
 ls -l /proc/$$/fd/0
-cat
-exit 0
-# It's e.g. pipe:[131656] when GitHub Codespace Creation runs this hook script
-exec </dev/null
-# Now it's /dev/null (obviously)
-ls -l /proc/$$/fd/0
+
+# This would block this script, both if it is run interactively and on GitHub Codespace Creation
+# cat
 
 # GitHub codespaces comes (as of mid October 2022) with old Fish 3.1.0; let's upgrade it
 sudo apt-add-repository -y ppa:fish-shell/release-3
@@ -18,7 +17,10 @@ sudo apt install -y fish
 # This works just fine (fish --command runs that command, it does NOT start a new interactive shell)
 fish --command="echo hi"
 
+# Do not redirect STDIN to /dev/null to work around bug (?) in Fisher here, because this breaks things later; instead just fisher </dev/null (below)
+##  exec </dev/null
+
 ## https://github.com/jorgebucaran/fisher
 curl -sL https://git.io/fisher -o /tmp/fisher
 # fish --debug="*" --debug-stack-frames=5 --private --no-config --print-rusage-self --command="source /tmp/fisher && fisher install jorgebucaran/fisher"
-fish --private --no-config --command="set fish_trace 1 && source /tmp/fisher && fisher install jorgebucaran/fisher"
+fish --private --no-config --command="set fish_trace 1 && source /tmp/fisher && fisher install jorgebucaran/fisher </dev/null"
