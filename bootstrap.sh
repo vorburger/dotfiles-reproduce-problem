@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
+# GitHub codespaces comes (as of mid October 2022) with old Fish 3.1.0; let's upgrade it
+sudo apt-add-repository -y ppa:fish-shell/release-3
+sudo apt update -y
+sudo apt install -y fish
+
 # This works just fine (fish --command runs that command, it does NOT start a new interactive shell)
 fish --command="echo hi"
 
