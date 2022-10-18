@@ -11,4 +11,5 @@ fish --command="echo hi"
 
 ## https://github.com/jorgebucaran/fisher
 curl -sL https://git.io/fisher -o /tmp/fisher
-fish --debug="*" --debug-stack-frames=5 --private --no-config --print-rusage-self --command="source /tmp/fisher && fisher install jorgebucaran/fisher"
+# fish --debug="*" --debug-stack-frames=5 --private --no-config --print-rusage-self --command="source /tmp/fisher && fisher install jorgebucaran/fisher"
+fish --private --no-config --command="set fish_trace 1 && source /tmp/fisher && fisher install jorgebucaran/fisher"
